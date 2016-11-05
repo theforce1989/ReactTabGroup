@@ -1,6 +1,5 @@
 import TabGroup from "./TabGroup";
-import Tab from "./Tab";
-
-TabGroup.Tab = Tab;
+import iTab from "./Tab";
 
 export default TabGroup;
+export const Tab = iTab;
