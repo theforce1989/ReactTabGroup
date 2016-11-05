@@ -1,6 +1,6 @@
 {
   "name": "React-Tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Customizable react tabs",
   "main": "index.js",
   "scripts": {
