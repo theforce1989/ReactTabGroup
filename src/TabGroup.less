@@ -1,0 +1,30 @@
+.tabGroup {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.tabHeaders {
+		flex: 0 0 auto;
+		display: flex;
+		flex-direction: row;
+
+		.tabHeader {
+			flex: 0 0 auto;
+			cursor: pointer;
+
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+	}
+
+	.tabContent {
+		flex: 1 1 auto;
+
+		.tab-inner {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

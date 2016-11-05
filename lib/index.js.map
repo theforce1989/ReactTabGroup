@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["Tab"],"mappings":";;;;;;AAAA;;;;AACA;;;;;;AAEA,mBAASA,GAAT","file":"index.js","sourcesContent":["import TabGroup from \"./TabGroup\";\r\nimport Tab from \"./Tab\";\r\n\r\nTabGroup.Tab = Tab;\r\n\r\nexport default TabGroup;\r\n"]}
