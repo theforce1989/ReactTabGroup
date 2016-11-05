@@ -11,6 +11,15 @@
   },
   "author": "Dominik Krieg",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "tabs",
+    "react-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:theforce1989/ReactTabGroup.git"
+  },
   "devDependencies": {
     "babel": "6.5.2",
     "babel-cli": "6.18.0",
