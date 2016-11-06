@@ -1,10 +1,10 @@
 var path = require("path");
 
 module.exports = {
-	entry: "./lib/main.js",
+	entry: "./examples/main.js",
 	devtool: "#cheap-eval-source-map",
 	output: {
-		path: __dirname + "/dist",
+		path: __dirname + "/examples",
 		filename: "bundle.js"
 	},
 	module: {

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.custom {
+
+	.tabGroup {
+
+		.tabHeaders {
+
+			.tabHeader {
+				position: relative;
+				text-align: center;
+				padding: .5em;
+
+				width: 20%;
+
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: 0; top: 0; left: 0; right: 0;
+					border-bottom: 3px solid transparent;
+				}
+
+				&.active {
+					font-weight: bold;
+					border-bottom: none;
+
+					&::after {
+						border-bottom: 3px solid blue;
+					}
+				}
+			}
+		}
+
+		.tabContent {
+			border-top: 1px solid #d4d4d4;
+			padding: 10px;
+		}
+	}
+}
+
+
+//dev
+html, body, #viewport {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Roboto', sans-serif;
+}
